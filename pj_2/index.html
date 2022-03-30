@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Project 2: Movie Booking Mini App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="movie-container">
+        <label>Pick a movie:</label>
+        <select id="movie">
+          <option value="12">Encanto ($12)</option>
+          <option value="10">Coco ($10)</option>
+          <option value="8">Up ($8)</option>
+          <option value="6">The Emperor's New Groove ($6)</option>
+        </select>
+      </div>
+      <ul class="showcase">
+        <li>
+          <div class="seat"></div>
+          <small>N/A</small>
+        </li>
+        <li>
+          <div class="seat selected"></div>
+          <small>Selected</small>
+        </li>
+        <li>
+          <div class="seat occupied"></div>
+          <small>Occupied</small>
+        </li>
+      </ul>
+      <div class="seat-container">
+        <div class="screen"></div>
+        <div class="theater"></div>
+      </div>
+      <p class="text">
+        You have selected <span id="count">0</span> seat(s) for a price of
+        US$<span id="total">0</span>
+      </p>
+      <button class="btn">Go to Checkout</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
