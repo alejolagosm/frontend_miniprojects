@@ -34,8 +34,9 @@ movieSelection.addEventListener('change', e => {
 
 teather.addEventListener('click', e => {
   if (e.target.classList.contains('seat')) {
+    if (e.target.classList.contains('selected')) seatCount--;
+    else seatCount++;
     e.target.classList.toggle('selected');
-    seatCount++;
     seatsSelected.innerText = seatCount;
     totalValue.innerText = seatCount * ticketValue;
   }
