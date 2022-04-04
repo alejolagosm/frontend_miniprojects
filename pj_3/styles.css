@@ -15,7 +15,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* min-height: 100vh; */
+  min-height: 100vh;
+  overflow: hidden;
   background-color: #333f8b;
 }
 
@@ -29,6 +30,7 @@ h1 {
   background-color: #000 !important;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  aspect-ratio: 16/9;
 }
 
 .controls {
@@ -72,6 +74,16 @@ h1 {
   .screen,
   .controls {
     width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .screen,
+  .controls {
+    width: 50%;
+  }
+  .screen {
+    aspect-ratio: 16/9;
   }
 }
 

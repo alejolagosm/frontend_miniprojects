@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/1372c28c63.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Project 4: Exchange Rate Calculator</title>
+  </head>
+  <body>
+    <figure>
+      <img src="money.jpg" alt="" class="money-img" />
+      <figcaption>Created by freepik.com</figcaption>
+    </figure>
+    <div class="container">
+      <h1>Show me the money!</h1>
+      <p>Choose currency and amount to get exchange rates</p>
+      <div class="currency">
+        <select id="currency-one">
+          <option value="USD">USD</option>
+          <option value="COP" selected>COP</option>
+        </select>
+        <input type="number" id="amount-1" placeholder="10" value="10" />
+        <div class="swap-rate-container">
+          <button class="btn" id="rate">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-2x"></i>
+          </button>
+          <div class="rate" id="rate"></div>
+        </div>
+        <select id="currency-two">
+          <option value="USD" selected>USD</option>
+          <option value="COP">COP</option>
+        </select>
+        <input type="number" id="amount-2" placeholder="10" value="10" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

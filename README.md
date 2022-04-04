@@ -10,6 +10,8 @@ This a list of projects by categories
 (Number of the project in parentheses)
 
 - Project 1: Form validator
+- Project 2: Movie Tickets MiniApp
+- Project 3: Custom Video Player
 
 I started this project March 28, 2022.
 
