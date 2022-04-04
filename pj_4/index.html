@@ -20,24 +20,30 @@
       <h1>Show me the money!</h1>
       <p>Choose currency and amount to get exchange rates</p>
       <div class="currency">
-        <select id="currency-one">
-          <option value="USD">USD</option>
-          <option value="COP" selected>COP</option>
-        </select>
+        <select id="currency-one"></select>
         <input type="number" id="amount-1" placeholder="10" value="10" />
+        <small id="currency-name1"></small>
         <div class="swap-rate-container">
-          <button class="btn" id="rate">
+          <button class="btn" id="rate-switch">
             <i class="fa-solid fa-arrow-right-arrow-left fa-2x"></i>
           </button>
-          <div class="rate" id="rate"></div>
+          <h3 class="rate" id="rate"></h3>
         </div>
         <select id="currency-two">
           <option value="USD" selected>USD</option>
           <option value="COP">COP</option>
         </select>
-        <input type="number" id="amount-2" placeholder="10" value="10" />
+        <input
+          type="number"
+          id="amount-2"
+          placeholder="10"
+          value="10"
+          readonly
+        />
+        <small id="currency-name2"></small>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="currency.json"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
