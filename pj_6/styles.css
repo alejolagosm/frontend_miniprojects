@@ -23,9 +23,7 @@ body {
   position: relative;
   margin: auto;
   height: 400px;
-  width: 400px;
-  border-radius: 10px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  min-width: 400px;
   padding: 20px 30px;
 }
 
@@ -100,7 +98,7 @@ body {
 .popup button {
   cursor: pointer;
   background-color: #fff;
-  color: 2980b9;
+  color: #2980b9;
   border: 0;
   margin-top: 20px;
   padding: 12px 20px;
