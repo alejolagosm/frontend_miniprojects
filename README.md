@@ -1,18 +1,20 @@
-# Vanilla Js projects
+# 20 Vanila Js projects
 
 Front end mini projects
 
-Most of the ideas for each projects are based on the course by Brad Traversy.
+The ideas for each projects are based on a course by Brad Traversy.
 
-I tried to add my own little twist to each project, and some other ideas I found along the way.
+I tried to add my own little twist to each project.
 
-This a list of projects by categories
-(Number of the project in parentheses)
+This a list of projects:
 
 - Project 1: Form validator
 - Project 2: Movie Tickets MiniApp
 - Project 3: Custom Video Player
+- Project 4: Currency conversion
+- Project 5: Canvas Breakout game
+- Project 6:
 
-I started this project March 28, 2022.
+I started this project March 28, 2022. Then took a hiatus due to extra courses I was taken. Started working again on July 23, 2022.
 
-Obviously, feel free to use any of the components for your own projects, these are not original ideas, I am just using them to learn and for portfolio purposes.
+These are not original ideas, this is just done as practice.
