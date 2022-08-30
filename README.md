@@ -16,7 +16,8 @@ This a list of the projects:
 - Project 11: Lyrics mini app
 - Project 12: Meal Finder
 - Project 13 : Expense tracker
-- Project 14: TBD
+- Project 14: Music Player
+- Project 15: TBD
 
 I started this project March 28, 2022. Then took a hiatus due to extra courses I was taking. Started working again on July 23, 2022.
 
