@@ -1,7 +1,4 @@
-# 20 Vanila Js projects
-
-Front end practice mini projects
-This a list of the projects:
+# 20 Front end mini projects
 
 - Project 1: Form validator
 - Project 2: Movie Tickets MiniApp
@@ -17,7 +14,8 @@ This a list of the projects:
 - Project 12: Meal Finder
 - Project 13 : Expense tracker
 - Project 14: Music Player
-- Project 15: TBD
+- Project 15: New year countdown
+- Project 16: TBD
 
 I started this project March 28, 2022. Then took a hiatus due to extra courses I was taking. Started working again on July 23, 2022.
 
