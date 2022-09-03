@@ -15,7 +15,8 @@
 - Project 13 : Expense tracker
 - Project 14: Music Player
 - Project 15: New year countdown
-- Project 16: TBD
+- Project 16: Relaxation mini app
+- Project 17: TBD
 
 I started this project March 28, 2022. Then took a hiatus due to extra courses I was taking. Started working again on July 23, 2022.
 
