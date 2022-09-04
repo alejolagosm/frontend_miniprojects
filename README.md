@@ -19,8 +19,12 @@
 - Project 17: Speech recognition
 - Project 18: Memory Cards
 - Project 19: Array methods
-- Project 20: TBD
+- Project 20: Escene 3D Orbiter with THREEJS
 
-I started this project March 28, 2022. Then took a hiatus due to extra courses I was taking. Started working again on July 23, 2022.
+Made this project during 2022, for approximately 2 months, with several hiatus in between.
+
+TODO LIST:
+[] Host the project on a platform
+[] Make a general index with a link to every project
 
 The ideas for each projects are based on a course by Brad Traversy, only done for practice.

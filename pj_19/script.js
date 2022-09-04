@@ -43,6 +43,7 @@ function formatMoney(money) {
 
 getRandomUser();
 
+//Event listeners
 add.addEventListener('click', getRandomUser);
 double.addEventListener('click', () => {
   data = data.map(user => {
