@@ -17,8 +17,8 @@
 - Project 15: New year countdown
 - Project 16: Relaxation mini app
 - Project 17: Speech recognition
-- Project 18: TBD
-- Project 19: TBD
+- Project 18: Memory Cards
+- Project 19: Array methods
 - Project 20: TBD
 
 I started this project March 28, 2022. Then took a hiatus due to extra courses I was taking. Started working again on July 23, 2022.
